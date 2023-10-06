@@ -4,7 +4,7 @@
 .testimoniales {
   @include m.tablet {
     @include m.grid(5, 4rem);
-    align-items: start;
+    align-items: center;
 
     .imagen {
       grid-column: 1/3;
